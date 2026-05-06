@@ -1,0 +1,47 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+.venv/
+*.egg-info/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Secrets — TRÈS IMPORTANT
+.env
+*.key
+*.pem
+secrets/
+api_keys.txt
+
+# Results / outputs
+results/
+output/
+*.csv
+!example_*.csv
+*.jsonl
+
+# Media — ne pas versionner les vidéos/audios (trop lourds)
+*.mp4
+*.mp3
+*.wav
+*.mov
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+.claude/
+.agents/
